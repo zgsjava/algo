@@ -45,7 +45,7 @@ public class Array {
         }
         // 如果count还没满，那么就可以插入数据到数组中
         // 位置不合法
-        if (index < 0||index > count ) {
+        if (index < 0||index > n ) {
             System.out.println("位置不合法");
             return false;
         }
